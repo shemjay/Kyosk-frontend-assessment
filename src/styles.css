@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-light-gray: hsla(0, 0%, 91%, 1);
+  --color-dark-gray: hsla(0, 0%, 36%, 1);
+  --color-black-opacity-11: hsla(0, 0%, 0%, 0.11);
+  --color-blue: hsla(223, 46%, 47%, 1);
+  --color-off-white: hsla(240, 7%, 97%, 1);
+  --color-black: hsla(0, 0%, 0%, 1);
+  --color-gray-76: hsla(0, 0%, 76%, 1);
+  --color-gray-54: hsla(0, 0%, 54%, 1);
+  --color-black-opacity-09: hsla(0, 0%, 0%, 0.09);
+  --color-blue-gray: hsla(221, 21%, 63%, 1);
+  --color-black-opacity-08: hsla(0, 0%, 0%, 0.08);
+  --color-green: hsla(116, 85%, 31%, 1);
+  --color-almost-white: hsla(0, 0%, 98%, 1);
+  --color-black-opacity-30: hsla(0, 0%, 0.3);
+  --color-yellow: hsla(50, 100%, 48%, 1);
+}
