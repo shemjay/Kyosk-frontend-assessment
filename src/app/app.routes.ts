@@ -2,14 +2,14 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: '/',
+    path: '',
     pathMatch: 'full',
     loadComponent: () => {
       return import('./pages/home/home.component').then((m) => m.HomeComponent);
     },
   },
   {
-    path: '/productdetails',
+    path: 'productdetails',
     pathMatch: 'full',
     loadComponent: () => {
       return import('./pages/product-details/product-details.component').then(
@@ -18,16 +18,16 @@ export const routes: Routes = [
     },
   },
   {
-    path: '/productdetails',
+    path: 'categories',
     pathMatch: 'full',
     loadComponent: () => {
-      return import('./pages/product-details/product-details.component').then(
-        (m) => m.ProductDetailsComponent
+      return import('./pages/categories/categories.component').then(
+        (m) => m.CategoriesComponent
       );
     },
   },
   {
-    path: '/productdetails',
+    path: 'cart',
     pathMatch: 'full',
     loadComponent: () => {
       return import('./pages/cart/cart.component').then((m) => m.CartComponent);

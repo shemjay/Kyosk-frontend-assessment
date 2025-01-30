@@ -4,8 +4,13 @@ import { NavComponent } from './components/nav/nav.component';
 
 @Component({
   selector: 'app-root',
-  imports: [NavComponent],
-  template: ` <app-nav /> `,
+  imports: [NavComponent, RouterOutlet],
+  template: `
+    <main>
+      <router-outlet />
+    </main>
+    <app-nav />
+  `,
   styleUrl: './app.component.css',
 })
 export class AppComponent {
