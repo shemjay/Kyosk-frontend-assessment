@@ -1,0 +1,14 @@
+<h3>Todos List</h3>
+
+<!-- <p *ngIf="!todoItems().length">...Loading</p> -->
+@if (!productItems().length) {
+<p>...Loading</p>
+}
+
+<ul>
+  @for (product of productItems(); track $index) {
+  <li class="todos__item">
+    <label>{{ product.title }}</label>
+  </li>
+  }
+</ul>

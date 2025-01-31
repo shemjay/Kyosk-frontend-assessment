@@ -6,7 +6,7 @@ import { NavComponent } from './components/nav/nav.component';
   selector: 'app-root',
   imports: [NavComponent, RouterOutlet],
   template: `
-    <main>
+    <main class="overflow-hidden">
       <router-outlet />
     </main>
     <app-nav />
